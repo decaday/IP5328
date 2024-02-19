@@ -1,6 +1,8 @@
 #ifndef _IP5328_H_
 #define _IP5328_H_
 
+#define IP5328_I2C_ADDR 0xEA 
+
 enum ChipType{
     IP5328,
     IP5328P
